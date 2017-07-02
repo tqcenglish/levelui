@@ -1,4 +1,4 @@
-var ipc = require('ipc');
+var ipc = require('electron').ipc;
 var fs = require('fs');
 var domready = require('domready');
 
